@@ -46,7 +46,7 @@ const Navbar: React.FC<NavbarProps> = ({
             onClick={() => setShowPost(false)}
           ></i>
         )}
-        <h1 className="tracking-[8px] text-2xl font-semibold">IMPULSE</h1>
+        <h1 className="tracking-[8px] text-2xl font-semibold">ERRADICA COOP</h1>
         {loggedIn && (
           <span className="text-sm ml-2 hidden md:block">
             <i className="fa-solid fa-user mx-2"></i>
