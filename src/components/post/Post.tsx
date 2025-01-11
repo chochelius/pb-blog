@@ -59,7 +59,7 @@ const Post: React.FC<PostProps> = ({ post, setShowPost, setCurrentPost }) => {
                 ></path>
               </svg>
             </p>
-            <span className="text-xs text-gray-500">posted by {user}</span>
+            <span className="text-xs text-gray-500">Escrito por <p className='inline text-gray-800'> {user}</p></span>
           </div>
         </div>
       </div>

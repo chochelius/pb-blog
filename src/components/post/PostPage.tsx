@@ -90,7 +90,7 @@ const PostPage: React.FC<PostPageProps> = ({ currentPost, currUser }) => {
                   ></i>
                 </span>
               ) : (
-                `posted by ${postData.user}`
+                `Escrito por ${postData.user}`
               )}
             </span>
           </p>
