@@ -68,20 +68,20 @@ const CreatePost: React.FC<CreatePostProps> = ({
       />
       <div className="flex flex-col justify-center items-center mx-5 py-10">
         <div className="pb-14 space-y-3 w-[700px] p-10">
-          <h1 className="text-3xl font-bold text-center">Create Post</h1>
+          <h1 className="text-3xl font-bold text-center">Crear un nuevo Blog</h1>
           <div className="space-y-1">
-            <p className="text-lg">Post Title</p>
+            <p className="text-lg">Título del blog</p>
             <input
               className="w-full"
               type="text"
-              placeholder="Title for your post..."
+              placeholder="Un título para tu artículo..."
               onChange={(e) =>
                 setPostState({ ...postState, title: e.target.value })
               }
             />
           </div>
           <div className="space-y-1">
-            <p className="text-lg">Background Image (optional)</p>
+            <p className="text-lg">Imágen de fondo </p>
             <input
               className="w-full"
               type="text"
@@ -92,7 +92,7 @@ const CreatePost: React.FC<CreatePostProps> = ({
             />
           </div>
           <div className="space-y-1">
-            <p className="text-lg">Content</p>
+            <p className="text-lg">Contenido</p>
             <textarea
               className="w-full"
               placeholder="Write Here..."
@@ -106,7 +106,7 @@ const CreatePost: React.FC<CreatePostProps> = ({
             className="bg-gray-700 w-full p-2 text-white hover:bg-slate-900"
             onClick={handleCreatePost}
           >
-            {loading ? <Spinner /> : 'Create Post'}
+            {loading ? <Spinner /> : 'Crear Post'}
           </button>
         </div>
       </div>

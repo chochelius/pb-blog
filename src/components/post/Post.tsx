@@ -43,7 +43,7 @@ const Post: React.FC<PostProps> = ({ post, setShowPost, setCurrentPost }) => {
               className="uppercase font-semibold flex items-center cursor-pointer"
               onClick={useCurrentPost}
             >
-              Read Article{' '}
+              Leer el artículo{' '}
               <svg
                 className="w-4 h-4 ml-2"
                 fill="none"

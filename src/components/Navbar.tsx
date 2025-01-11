@@ -54,7 +54,7 @@ const Navbar: React.FC<NavbarProps> = ({
           </span>
         )}
         <button className="text-sm" onClick={() => dispatch(logout())}>
-          <i className="fa-solid fa-right-to-bracket mx-2"></i>logout
+          <i className="fa-solid fa-right-to-bracket mx-2"></i>Cerrar Sesión
         </button>
       </div>
       <div className="md:flex items-center space-x-5 hidden">

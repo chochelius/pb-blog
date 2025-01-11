@@ -67,11 +67,10 @@ const MainScreen: React.FC<MainScreenProps> = ({
       {!showPost ? (
         <div className="flex flex-col justify-center items-center mx-5 relative">
           <div className="py-10 space-y-3 md:w-[500px] text-center">
-            <h1 className="text-5xl font-bold">Realtime Blog</h1>
+            <h1 className="text-5xl font-bold">Blog para personal interno</h1>
             <p className="text-lg text-gray-600">
               <q>
-                Be who you are and say what you feel, because those who mind
-                don't matter, and those who matter don't mind.
+                Escribe con creatividad, da rienda suelta a tu imaginación pero no olvides en lo que trabajamos y su importancia
               </q>
             </p>
           </div>
@@ -88,7 +87,7 @@ const MainScreen: React.FC<MainScreenProps> = ({
             </div>
           ) : (
             <p className="text-2xl text-gray-500">
-              🤔 No posts yet. Create one by clicking on the button below.
+              🤔 Aún no hay ningún post en el Blog, crea uno para empezar arriba a la izquierda en el signo +
             </p>
           )}
         </div>

@@ -49,24 +49,24 @@ const AuthPage: React.FC = () => {
       <div className="w-full max-w-md space-y-8">
         <>
           <img
-            className="mx-auto h-12 w-auto"
-            src="https://www.clipartmax.com/png/full/111-1112912_go-gopher-go-programming-language-logo.png"
+            className="mx-auto h-25 w-auto"
+            src="https://pbe.choche.bond/api/files/pbc_3607937828/qz5q4u6cn5h4930/untitled_project_1_82jbmbdisk.png"
             alt="Logo"
           />
-          <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
-            {loginPage ? 'Login to your account' : 'Register a new account'}
+          <h2 className="mt-6 text-center text-5xl font-bold tracking-tight text-gray-900">
+            {loginPage ? ' Entra a tu cuenta' : ' Resgistra una nueva cuenta'}
           </h2>
-          <p className="mt-2 text-center text-sm text-gray-600">
-            Or
+          <p className="mt-2 text-center text-2xltext-gray-600">
+            O
             <a
               href="#"
-              className="font-medium text-indigo-600 hover:text-indigo-500 pl-1"
+              className="font-medium text-2xl text-indigo-600 hover:text-indigo-500 pl-1"
               onClick={(e) => {
                 e.preventDefault();
                 setLoginPage(!loginPage);
               }}
             >
-              {loginPage ? 'Register a new account' : 'Login to your account'}
+              {loginPage ? ' Registra una nueva cuenta' : ' Entra a tu cuenta'}
             </a>
           </p>
         </>
