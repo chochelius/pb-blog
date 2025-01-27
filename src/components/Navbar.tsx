@@ -65,7 +65,7 @@ const Navbar: React.FC<NavbarProps> = ({
           href="https://pocketbase.io/"
           className="flex items-center text-xs focus:outline-none"
         >
-          powered by{' '}
+          Potenciado por  {' '}
           <img
             className="w-8 h-8 animate-pulse"
             src="https://pocketbase.io/images/logo.svg"
