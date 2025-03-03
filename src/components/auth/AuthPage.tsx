@@ -49,24 +49,24 @@ const AuthPage: React.FC = () => {
       <div className="w-full max-w-md space-y-8">
         <>
           <img
-            className="mx-auto h-25 w-auto"
-            src="https://pbe.choche.bond/api/files/pbc_3607937828/qz5q4u6cn5h4930/untitled_project_1_82jbmbdisk.png"
+            className="mx-auto w-3/4 h-auto" 
+            src="https://pocketbase.erradica.cl/api/files/pbc_3607937828/qz5q4u6cn5h4930/untitled_project_1_82jbmbdisk.png"
             alt="Logo"
           />
-          <h2 className="mt-6 text-center text-5xl font-bold tracking-tight text-gray-900">
-            {loginPage ? ' Entra a tu cuenta' : ' Resgistra una nueva cuenta'}
+          <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
+            {loginPage ? ' Ingresa a tu cuenta' : ' Resgistra una nueva cuenta'}
           </h2>
-          <p className="mt-2 text-center text-2xltext-gray-600">
+          <p className="mt-2 text-center text-xl text-gray-600">
             O
             <a
               href="#"
-              className="font-medium text-2xl text-indigo-600 hover:text-indigo-500 pl-1"
+              className="font-medium text-xl text-indigo-600 hover:text-indigo-500 pl-1"
               onClick={(e) => {
                 e.preventDefault();
                 setLoginPage(!loginPage);
               }}
             >
-              {loginPage ? ' Registra una nueva cuenta' : ' Entra a tu cuenta'}
+              {loginPage ? ' Registra una nueva cuenta' : ' Ingresa a tu cuenta'}
             </a>
           </p>
         </>
@@ -87,7 +87,7 @@ const AuthPage: React.FC = () => {
                 autoComplete="email"
                 required
                 className="relative block w-full appearance-none rounded-none rounded-t-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                placeholder="Email address"
+                placeholder="Correo electrónico"
                 value={creds.email}
                 onChange={(e) => setCreds({ ...creds, email: e.target.value })}
               />
@@ -103,7 +103,7 @@ const AuthPage: React.FC = () => {
                 autoComplete="current-password"
                 required
                 className="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                placeholder="Password"
+                placeholder="Contraseña"
                 value={creds.password}
                 onChange={(e) =>
                   setCreds({ ...creds, password: e.target.value })
@@ -157,7 +157,7 @@ const AuthPage: React.FC = () => {
                 </svg>
               </span>
 
-              {loading ? <Spinner /> : loginPage ? 'Login' : 'Register'}
+              {loading ? <Spinner /> : loginPage ? 'Ingresa' : 'Registrate'} 
             </button>
           </div>
         </form>
