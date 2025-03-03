@@ -49,13 +49,8 @@ const AuthPage: React.FC = () => {
       <div className="w-full max-w-md space-y-8">
         <>
           <img
-<<<<<<< HEAD
-            className="mx-auto w-3/4 h-auto" 
-            src="https://pocketbase.erradica.cl/api/files/pbc_3607937828/qz5q4u6cn5h4930/untitled_project_1_82jbmbdisk.png"
-=======
-            className="mx-auto h-25 w-auto"
-            src="https://pbe.choche.bond/api/files/pbc_3607937828/r12t6im0s3wav6j/untitled_project_1_zbrahaccb0.png?token="
->>>>>>> 4fcae0b66df88d6f0b7a35100f0d90a134057c7b
+            className="mx-auto h-40 w-auto" 
+            src="https://pocketbase.erradica.cl/api/files/pbc_3607937828/i85z6tb8lrg48vz/untitled_project_8_1gn72upmug.png?token="
             alt="Logo"
           />
           <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
